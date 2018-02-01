@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+// reders a single button
 class Square extends React.Component {
   render() {
     return(
@@ -12,6 +13,7 @@ class Square extends React.Component {
   }
 }
 
+// renders 9 squares
 class Board extends React.Component {
   renderSquare(i) {
     return <Square />;
@@ -42,6 +44,7 @@ class Board extends React.Component {
   }
 }
 
+// renders game board
 class Game extends React.Component {
   render () {
     return(
