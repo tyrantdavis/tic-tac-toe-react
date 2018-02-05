@@ -51,9 +51,10 @@ class Game extends React.Component {
     super(props);
     this.state = {
         history: [{
-            squares: Array(9).fill(null) // removed comma
+            squares: Array(9).fill(null),  // comma added back
         }],
-        xIsNext: true // removed comma
+        stepNumber: 0,
+        xIsNext: true, // added comma
     };
   }
 
