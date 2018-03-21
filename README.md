@@ -1,4 +1,4 @@
-#React Tic-Tac-Toe
+# React Tic-Tac-Toe
 #### Objective: Build an interactive tic-tac-toe game using React.
 ___
 ### Setup
